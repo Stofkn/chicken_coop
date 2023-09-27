@@ -1,0 +1,14 @@
+{
+  "domain": "chicken_coop",
+  "name": "Chicken coop",
+  "version": "0.0.0",
+  "codeowners": ["@Stofkn"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/chicken_coop",
+  "homekit": {},
+  "iot_class": "assumed_state",
+  "requirements": ["pyserial==3.5", "RPi.GPIO==0.7.1"],
+  "ssdp": [],
+  "zeroconf": []
+}
