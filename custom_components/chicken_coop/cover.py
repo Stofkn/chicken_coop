@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import time
 
-from RPi.GPIO import GPIO
+from RPi import GPIO
 
 from homeassistant.components.cover import CoverEntity, CoverEntityFeature
 from homeassistant.config_entries import ConfigEntry
